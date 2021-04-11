@@ -28,6 +28,9 @@ body {
     background-color: #f2f2f2;
     display: relative;
     font-family: var(--ff-light-400);
+}
+
+body, h2, p {
     margin: 0;
     padding: 0;
 }
@@ -47,7 +50,7 @@ body {
 }
 
 .card *~* {
-    margin-top: 2.5rem;
+    margin-top: 3.2rem;
 }
 
 .card img {
