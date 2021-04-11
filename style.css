@@ -60,7 +60,7 @@ body, h2, p {
 .card h2 {
     color: var(--clr-neutral-very-light-gray);
     font-family: var(--ff-bold-900);
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
@@ -71,7 +71,6 @@ body, h2, p {
     border-radius: 3rem;
     padding: 1.1em 2em;
     cursor: pointer;
-    /* width: fit-content; */
 }
 
 .btn:hover {
@@ -139,7 +138,7 @@ body, h2, p {
     }
 
     .card .btn-container {
-        margin-top: 5rem;
+        margin-top: 6.5rem;
     }
 
     .sedan {
