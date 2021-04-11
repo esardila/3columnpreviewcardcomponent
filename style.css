@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -28,6 +28,8 @@ body {
     background-color: #f2f2f2;
     display: relative;
     font-family: var(--ff-light-400);
+    margin: 0;
+    padding: 0;
 }
 
 .main {
@@ -40,7 +42,7 @@ body {
     color: var(--clr-neutral-transparent-white);
     display: grid;
     line-height: 1.5rem;
-    padding: 3rem;
+    padding: 3.2rem;
     width: calc(920px / 3);
 }
 
@@ -65,7 +67,7 @@ body {
     border-radius: 3rem;
     padding: 1.1em 2em;
     cursor: pointer;
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 .btn:hover {
@@ -132,7 +134,7 @@ body {
         transform: translate(-50%, -50%);
     }
 
-    .card .btn {
+    .card .btn-container {
         margin-top: 5rem;
     }
 
